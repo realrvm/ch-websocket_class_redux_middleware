@@ -19,3 +19,5 @@ socket.on("message", (e: { data: {} }) => {
 socket.on("close", () => {
   console.log("close connection");
 });
+
+socket.disconnect();
